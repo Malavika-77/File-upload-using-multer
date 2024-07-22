@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-const mongoURI = 'mongodb+srv://malavikaraju77:ClGCwddTVxdv45Xa@storyteller.oarxhzg.mongodb.net/multer?retryWrites=true&w=majority&appName=storyteller';
+const mongoURI =;
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
